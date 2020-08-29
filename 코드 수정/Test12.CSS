@@ -1,0 +1,41 @@
+body{
+    width: 657px;
+    margin: 10px auto;
+}
+
+#CalendarBody{
+    border: 1px solid black;
+    position: relative;
+}
+
+td{
+    border: 2px solid rgb(236, 216, 245);
+    width: 85px;
+    height: 40px;
+    text-align: center;
+}
+
+th{
+    padding: 30px;
+    background-color: rgb(200, 215, 247);
+}
+
+#PreMonth{
+    position: absolute;
+    top: 30px;
+    right: 5px;
+}
+
+#LastMonth{
+   
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+
+button{
+    background-color: pink;
+    border: 1px solid rgb(218, 61, 87);
+    border-radius: 10px;
+    color: rgb(212, 88, 88);
+}
