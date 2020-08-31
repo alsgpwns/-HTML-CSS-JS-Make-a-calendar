@@ -1,0 +1,63 @@
+body{
+    width: 657px;
+    margin: 10px auto;
+    font-family: 'Londrina Solid', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#CalendarBody{
+    border: 2px solid rgb(205, 249, 255);
+    border-radius: 5px;
+    position: relative;
+}
+
+
+th{
+    font-family: 'Londrina Solid', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    padding: 30px;
+    background-color: rgb(221, 232, 255);
+}
+
+td{
+    border: 2px solid rgb(222, 231, 250);
+    width: 85px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#PreMonth{
+    position: absolute;
+    top: 60px;
+    right: 5px;
+}
+
+#LastMonth{
+    position: absolute;
+    top: 60px;
+    left: 5px;
+}
+
+button{
+    background-color: rgb(212, 255, 192);
+    border: 1px solid rgb(145, 218, 61);
+    border-radius: 10px;
+    color: rgb(175, 221, 115);
+}
+
+.day0,.date1{
+    color: red;
+}
+
+.day6,.date7{
+    color: blue;
+}
+
+#today{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(205, 240, 245);
+}
